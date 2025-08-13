@@ -1,0 +1,144 @@
+body {
+    background-color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.hlo {
+    text-align: center;
+    margin-top: 30px;
+    color:#113F67;
+}
+
+.vip {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    justify-items: center;
+    align-items: start;
+    margin: 50px auto;
+    max-width: 1000px;
+    background-color: white;
+}
+
+.profile-card {
+    background-color: white;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.profile-card a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.fac {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    border: 2px solid white;
+}
+
+.profile-text {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+    background-color: white;
+    border: 2px solid white;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: #113F67;
+}
+.fac:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #113F67;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.course-section {
+    margin-bottom: 20px;
+}
+
+.course-title {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.section-title {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 20px 0 10px;
+    color: #113F67;
+}
+
+.results {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.result-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    align-items: center;
+}
+
+.result-row.header {
+    background: #113F67;
+    color: white;
+    font-weight: bold;
+}
+
+.result-row:last-child {
+    border-bottom: none;
+}
+
+.status-pass {
+    color: green;
+    font-weight: bold;
+}
+
+.status-fail {
+    color: red;
+    font-weight: bold;
+}

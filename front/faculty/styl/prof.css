@@ -1,0 +1,87 @@
+body {
+    background-color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.hlo {
+    text-align: center;
+    margin-top: 30px;
+    color: #113F67;
+}
+.faculty-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+}
+.profile-top {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.fac {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    background-color: white;
+    border: 2px solid white;
+}
+.fac:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.intro-text p {
+    margin: 0;
+    font-weight: bold;
+}
+.profile-menu {
+    margin: 20px 0;
+}
+.menu-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.menu-buttons button {
+    background-color: #113F67;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.menu-buttons button:hover {
+    background-color: #0d2f4d;
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+.faculty-details-section {
+    margin-top: 20px;
+}
+.details {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.detail-row {
+    display: flex;
+    border-bottom: 1px solid black;
+}
+.detail-cell {
+    flex: 1;
+    padding: 8px;
+    border-right: 1px solid black;
+}
+.detail-row:last-child {
+    border-bottom: none;
+}
+.detail-cell:last-child {
+    border-right: none;
+}

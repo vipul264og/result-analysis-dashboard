@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styla/admin.css">
+    <title>Result</title>
+</head>
+<body>
+
+    <h1><b>Admin Result Dashboard</b></h1>
+
+    <ul>
+        <li><u><a href="results/add_result.html">Add Result</a></u></li>
+        <li><u>Update Result</u></li>
+        <li><u>Delete</u></li>
+        <li><u>Post Announcement</u></li>
+    </ul>
+
+    <label for="subject">Choose Subject</label>
+    <select id="subject" name="subject">
+        <option value="dbms">DBMS</option>
+        <option value="aiml">AIML</option>
+        <option value="front end">Front End</option>
+    </select> 
+
+    <h2>Results</h2>
+    <div class="results-container">
+        <div class="result-header">
+            <div class="result-cell">Serial No</div>
+            <div class="result-cell">Reg ID</div>
+            <div class="result-cell">Student Name</div>
+            <div class="result-cell">Course Name</div>
+            <div class="result-cell">Marks</div>
+            <div class="result-cell">Status</div>
+            <div class="result-cell">Action</div>
+        </div>
+
+        <div class="result-row">
+            <div class="result-cell">01</div>
+            <div class="result-cell">2400031117</div>
+            <div class="result-cell">Parth Pratyush</div>
+            <div class="result-cell">ITUS</div>
+            <div class="result-cell">01</div>
+            <div class="result-cell">Fail</div>
+            <div class="result-cell">
+                <ul class="action-list">
+                    <li>Edit</li>
+                    <li>Delete</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="result-row">
+            <div class="result-cell">02</div>
+            <div class="result-cell">2400031114</div>
+            <div class="result-cell">Deepak Kumar</div>
+            <div class="result-cell">LCCG</div>
+            <div class="result-cell">33</div>
+            <div class="result-cell">Pass</div>
+            <div class="result-cell">
+                <ul class="action-list">
+                    <li>Edit</li>
+                    <li>Delete</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
